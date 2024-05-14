@@ -2,11 +2,11 @@ self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('v1').then(function(cache) {
             return cache.addAll([
-                'index.html',
-                'manifest.json',
-                'css/styles.css',
-                'js/main.js',
-                'js/workers.js',
+                '../index.html',
+                '../manifest.json',
+                '../css/styles.css',
+                'main.js',
+                'workers.js',
             ]);
         })
     );
