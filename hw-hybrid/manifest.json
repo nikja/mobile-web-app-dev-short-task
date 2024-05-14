@@ -1,0 +1,9 @@
+{
+    "name": "Hybrid Applications Comparison",
+    "short_name": "HybridApps",
+    "icons": [],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF"
+}
