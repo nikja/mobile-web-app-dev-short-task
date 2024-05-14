@@ -5,8 +5,7 @@ self.addEventListener('install', function(event) {
                 '../index.html',
                 '../manifest.json',
                 '../css/styles.css',
-                'main.js',
-                'workers.js',
+                'main.js'
             ]);
         })
     );
